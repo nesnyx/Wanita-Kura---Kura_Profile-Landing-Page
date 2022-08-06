@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+      <link rel="stylesheet" href="style.css">
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      <title>Design</title>
+    </head>
+
+    <body>
+      <!-- Navbar -->
+      <section id="navbar" class="navbar ">
+        <div class="navbar-fixed-top ">
+          <nav>
+            <div class="container ">
+              <div class="nav-wrapper ">
+                <a href="#!" class="brand-logo">ASB</a>
+                <a href="#" data-target="mobile-nav" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                <ul class="right hide-on-med-and-down">
+                  <li><a href="#">About</a></li>
+                  <li><a href="#">Contact</a></li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </section>
+        
+      <!-- sidenav -->
+      
+        <ul class="sidenav" id="mobile-nav">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+          
+        </ul>
+
+        <!-- slider -->
+        <section id="slide" class="slide">
+          <div class="slider">
+            <ul class="slides">
+              <li>
+                <img src="img/anime1.jpg"> <!-- random image -->
+                <div class="caption center-align">
+                  <h3>Wanita Kura - kura</h3>
+                  <h5 class="light grey-text text-lighten-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni quasi enim quis omnis, reiciendis commodi soluta odit quam, officia corrupti voluptas eaque nihil officiis laborum nemo veritatis, totam nulla itaque!</h5>
+                </div>
+              </li>
+              <li>
+                <img src="img/anime2.jpg"> <!-- random image -->
+                <div class="caption left-align">
+                  <h3>Yuki</h3>
+                  <h5 class="light grey-text text-lighten-3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt quod consequatur voluptatem unde ab, quos totam architecto. Similique deserunt quasi fuga reiciendis quam, debitis laborum, incidunt corrupti, tempore quo enim!</h5>
+                </div>
+              </li>
+              <li>
+                <img src="img/anime3.jpg"> <!-- random image -->
+                <div class="caption right-align">
+                  <h3>Yure</h3>
+                  <h5 class="light grey-text text-lighten-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam perspiciatis dignissimos, enim asperiores, inventore itaque nam dolor vel exercitationem sit illo error quibusdam sunt atque assumenda, corrupti cumque distinctio dolore.</h5>
+                </div>
+              </li>
+              <li>
+                <img src="img/anime4.jpg"> <!-- random image -->
+                <div class="caption center-align">
+                  <h3>Gitaa</h3>
+                  <h5 class="light grey-text text-lighten-3 light">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores beatae ab dolor cumque impedit quis delectus, qui hic vero sint. Sed enim rerum velit recusandae ipsa architecto odio a esse.</h5>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <!-- about -->
+        <section id="about" class="about">
+          <div class="container">
+            <div class="row center">
+              <div class="col s12 m12 ">
+                <h3 class="light">About</h3>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col m6 s12 light">
+                <h5>Skills</h5>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore facere, nulla itaque quae corporis expedita quod reiciendis dolorem officiis, deleniti id quidem qui voluptas culpa deserunt nostrum ea consequatur est.</p>
+              </div>
+              <div class="col m6 s12 light">
+                <h5>Design</h5>
+                <div class="progress">
+                  <div class="determinate" style="width: 70%"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- footer -->
+        <section id="footer" class="footer">
+          <footer class="page-footer">
+            <div class="container">
+              <div class="row">
+                <div class="col l6 s12">
+                  <h5 class="white-text">Anime</h5>
+                  <p class="grey-text text-lighten-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat sit voluptatibus libero quia. Consequatur cum tenetur soluta incidunt, assumenda quam repudiandae, laboriosam earum modi reprehenderit voluptates quibusdam nam sit nisi!</p>
+                </div>
+                
+              </div>
+            </div>
+            <div class="footer-copyright">
+              <div class="container">
+              © 2090 Copyright Text
+              <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+              </div>
+            </div>
+          </footer>
+        </section>
+
+      
+
+      <!--JavaScript at end of body for optimized loading-->
+      
+
+      <script type="text/javascript" src="js/materialize.min.js"></script>
+      <script>
+
+        const sideNav = document.querySelectorAll('.sidenav');
+        M.Sidenav.init(sideNav);
+
+        const slider = document.querySelectorAll('.slider');
+        M.Slider.init(slider);
+
+      </script>
+    </body>
+  </html>
